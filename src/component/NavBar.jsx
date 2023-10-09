@@ -1,26 +1,52 @@
-import React from "react";
-import Logo from "../images/logo/logo.png"
-import "../styles/NavbarStyles/_navbar.scss"
+import React, {useState} from "react";
+import Logo from "../images/logo/logo.png";
+import "../styles/NavbarStyles/_navbar.scss";
+import {IconMenu2} from "@tabler/icons-react";
 
 const NavBar = () => {
 
+    const [burgerMenu, setBurgerMenu] = useState(false);
+
+    const handleBurgerMenu = () => {
+
+        if (!burgerMenu) {
+            setBurgerMenu(true);
+        } else {
+            setBurgerMenu(false);
+        }
+    }
+
+    const links_left = [
+        {
+            name: 'Home', anchor: '#home'
+        },
+        {
+            name: 'Menu', anchor: '#menu'
+        },
+        {
+            name: 'About', anchor: '#about'
+        }
+    ]
+
+    const links_right = [
+        {
+            name: 'Pages', anchor: '#pages'
+        },
+        {
+            name: 'Blog', anchor: '#blog'
+        },
+        {
+            name: 'Gallery', anchor: '#gallery'
+        },
+    ]
+
     return (
         <>
-
             <nav>
                 <div className="container">
-                    <div className="mobile-navbar"></div>
                     <div className="navbar">
                         <ul className="navbar__links">
-                            <a id="home" href="#home">
-                                <li>Home</li>
-                            </a>
-                            <a id="menu" href="#menu">
-                                <li>Menu</li>
-                            </a>
-                            <a id="about" href="#about">
-                                <li>About</li>
-                            </a>
+                            {links_left.map(link => (<li><a href={link.anchor}>{link.name}</a></li>))}
                         </ul>
                         <div className="navbar__img">
                             <a href="/">
@@ -28,20 +54,22 @@ const NavBar = () => {
                             </a>
                         </div>
                         <ul className="navbar__links">
-                            <a id="pages" href="#pages">
-                                <li>Pages</li>
-                            </a>
-                            <a id="blog" href="#blog">
-                                <li>Blog</li>
-                            </a>
-                            <a id="gallery" href="#gallery">
-                                <li>Gallery</li>
-                            </a>
+                            {links_right.map(link => (<li><a href={link.anchor}>{link.name}</a></li>))}
                         </ul>
                     </div>
+                    <div className="burger-menu">
+                        <span onClick={(handleBurgerMenu)}><IconMenu2 width={30} height={30}
+                                                                      className="burger-icon"></IconMenu2></span>
+                    </div>
+                </div>
+                <div className={`mobile-menu ${burgerMenu ? "open-menu" : "close-menu"}`}>
+                    <ul>
+                        {links_left.concat(links_right).map(link =>
+                            (<li><a href={link.anchor}>{link.name}</a></li>))
+                        }
+                    </ul>
                 </div>
             </nav>
-
         </>
     );
 }

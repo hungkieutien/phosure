@@ -1,5 +1,10 @@
 .fixed-book-table-right,
 .fixed-view-menu-left {
+
+  @media (max-width: 1114px) {
+    display: none;
+  }
+
   position: fixed;
   top: 52.5%;
   min-height: 180px;
