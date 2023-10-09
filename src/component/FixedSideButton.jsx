@@ -12,7 +12,7 @@ function FixedSideButton() {
             </div>
             <div className="fixed-book-table-right">
                 <p className="rotate-text-book-table">
-                    <a href="/">book a table</a>
+                    <a href="/">book table</a>
                 </p>
             </div>
         </>
