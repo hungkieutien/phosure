@@ -1,0 +1,68 @@
+.fixed-book-table-right,
+.fixed-view-menu-left {
+  position: fixed;
+  top: 52.5%;
+  min-height: 180px;
+  width: 92px;
+  transform: translateY(-50%);
+
+  p {
+    transition: all 0.4s ease 0s;
+
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+  }
+}
+
+.fixed-book-table-right {
+  background: url("../../images/fixedsidebuttons/book-table-right.png") no-repeat center;
+  right: 0;
+
+  &:hover {
+    p {
+
+      // !!!!! CHECKEN was translate hier heißt
+      transform: rotate(360deg) translate(5px, 80px);
+    }
+  }
+
+  p {
+    transform: rotate(270deg) translate(-82px, 16px);
+
+    a {
+      color: #fff;
+
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+}
+
+.fixed-view-menu-left {
+  background: url("../../images/fixedsidebuttons/show-menu-left.png") no-repeat center;
+  left: 0;
+
+  &:hover {
+    p {
+      transform: rotate(0deg) translate(8px, 80px);
+    }
+  }
+
+  p {
+    transform: rotate(90deg) translate(90px, 16px);
+
+    a {
+      color: #000;
+
+      &:hover {
+        color: #ad9966;
+      }
+    }
+  }
+}
+
+

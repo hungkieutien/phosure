@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+
+  .navbar__links {
+    display: flex;
+    list-style-type: none;
+    gap: 3rem;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+
+      li {
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 500;
+        color: #000;
+      }
+    }
+  }
+
+  .navbar__img {
+    img {
+      width: 6rem;
+      height: 6rem;
+    }
+  }
+}
