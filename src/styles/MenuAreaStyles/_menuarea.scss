@@ -9,7 +9,7 @@
 
     .menu-content {
       @media (max-width: 992px) {
-        height: 60rem;
+        height: 100%;
         gap: 0;
       }
 
@@ -67,6 +67,10 @@
         }
 
         a {
+          @media (max-width: 1050px) {
+            width: 60%;
+          }
+
           @media (max-width: 992px) {
             width: 50%;
             font-size: 12px;
@@ -103,6 +107,7 @@
       .menu-list {
         @media (max-width: 992px) {
           padding: 60px 0;
+          margin-left: 15px;
         }
 
         @media (max-width: 768px) {
@@ -112,11 +117,15 @@
         padding: 120px 0;
         text-align: center;
         background: #faf5f0;
-        width: 50%;
+        width: 60%;
 
         .single-menu {
 
           h3 {
+            @media (max-width: 992px) {
+              margin-top: 0;
+            }
+
             font-size: 21px;
             position: relative;
             padding-bottom: 20px;
@@ -143,6 +152,10 @@
             list-style: none;
 
             li {
+              @media (max-width: 992px) {
+                padding-bottom: 20px;
+              }
+
               padding-bottom: 35px;
 
               .menu-item {
