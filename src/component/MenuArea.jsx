@@ -37,20 +37,17 @@ function MenuArea() {
                         </div>
                         <div className="menu-list">
                             <div className="single-menu">
-
                                 {meals.map(meal => {
                                         return (
                                             <>
                                                 <h3>{meal.categorie}</h3>
                                                 <ul>
                                                     <li>
-                                                        <p>{meal.dish}</p>
-                                                        <span>{meal.price}</span>
+                                                        <p className="menu-item">{meal.dish} - <span>{meal.price}</span></p>
                                                         <p>{meal.description}</p>
                                                     </li>
                                                     <li>
-                                                        <p>{meal.dish}</p>
-                                                        <span>{meal.price}</span>
+                                                        <p className="menu-item">{meal.dish} - <span>{meal.price}</span></p>
                                                         <p>{meal.description}</p>
                                                     </li>
                                                 </ul>

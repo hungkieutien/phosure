@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f068d6b-705c-4703-a84d-adcf272cfafc" name="Changes" comment="NavBar und Hero mobile fertiggestellt">
-      <change afterPath="$PROJECT_DIR$/src/component/MenuArea.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/MenuAreaStyles/_menuarea.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/global/_typography.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/FixedSideButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/FixedSideButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/MenuArea.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/MenuArea.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/FixedSideButtonStyles/_fixedsidebutton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/FixedSideButtonStyles/_fixedsidebutton.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/global/_boilerplate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global/_boilerplate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/HeroStyles/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/HeroStyles/_hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/MenuAreaStyles/_menuarea.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/MenuAreaStyles/_menuarea.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/NavbarStyles/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/NavbarStyles/_navbar.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
