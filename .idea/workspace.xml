@@ -4,37 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f068d6b-705c-4703-a84d-adcf272cfafc" name="Changes" comment="Bilder Sektion hinzugefügt und kleinere CSS Korrekturen">
-      <change afterPath="$PROJECT_DIR$/src/component/Reservation.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/ReservationConfirmation.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/ReservationConfirmationText.jsx" afterDir="false" />
+    <list default="true" id="8f068d6b-705c-4703-a84d-adcf272cfafc" name="Changes" comment="Reservierung fertiggestellt und verschiedene CSS Anpassungen">
+      <change afterPath="$PROJECT_DIR$/src/component/Chefsquotes.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/chefsquotes/chefsquotes.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/images/gallery/dish_1.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/images/gallery/dish_2.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/images/gallery/dish_3.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/images/gallery/dish_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/ModalStyles/_modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/ReservationStyles/_reservation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/ReservationStyles/_reservationconfirmation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/Modal.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/FixedSideButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/FixedSideButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/GalleryArea.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Gallery.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/MenuArea.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Menu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/ChefsquotesStyles/_chefsquotes.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/GalleryAreaStyles/_galleryarea.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/GalleryStyles/_gallery.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/HeroStyles/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/HeroStyles/_hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/MenuAreaStyles/_menuarea.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/MenuStyles/_menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/NavbarStyles/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/NavbarStyles/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/global/_boilerplate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global/_boilerplate.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/global/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/ReservationStyles/_reservation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/ReservationStyles/_reservation.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,6 +49,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/netgrade/Desktop/github/hung/phosure",
+    "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,6 +60,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images/gallery" />
+      <recent name="$PROJECT_DIR$/src/images/chefsquotes" />
       <recent name="$PROJECT_DIR$/src/images/galleryarea" />
     </key>
   </component>
@@ -82,7 +76,7 @@
       <workItem from="1696340958577" duration="1007000" />
       <workItem from="1697014469838" duration="1224000" />
       <workItem from="1697032240628" duration="4214000" />
-      <workItem from="1697114291933" duration="44295000" />
+      <workItem from="1697114291933" duration="50130000" />
     </task>
     <task id="LOCAL-00001" summary="NavBar, Hero, Buttons rechts/links verbaut">
       <option name="closed" value="true" />
@@ -132,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696954166476</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Reservierung fertiggestellt und verschiedene CSS Anpassungen">
+      <option name="closed" value="true" />
+      <created>1697536777944</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697536777944</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +156,7 @@
     <MESSAGE value="NavBar und Hero mobile fertiggestellt" />
     <MESSAGE value="Menu Area fertiggestellt und paar CSS Kleinigkeiten ergänzt" />
     <MESSAGE value="Bilder Sektion hinzugefügt und kleinere CSS Korrekturen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bilder Sektion hinzugefügt und kleinere CSS Korrekturen" />
+    <MESSAGE value="Reservierung fertiggestellt und verschiedene CSS Anpassungen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reservierung fertiggestellt und verschiedene CSS Anpassungen" />
   </component>
 </project>

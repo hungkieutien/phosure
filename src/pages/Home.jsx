@@ -4,6 +4,7 @@ import FixedSideButton from "../component/FixedSideButton";
 import Menu from "../component/Menu";
 import Gallery from "../component/Gallery";
 import Reservation from "../component/Reservation";
+import Chefsquotes from "../component/Chefsquotes";
 
 function Home() {
     return (
@@ -13,6 +14,7 @@ function Home() {
             <Menu/>
             <Gallery/>
             <Reservation/>
+            <Chefsquotes/>
         </>
     );
 }
