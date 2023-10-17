@@ -1,16 +1,18 @@
 import React from "react";
 import Hero from "../component/Hero";
 import FixedSideButton from "../component/FixedSideButton";
-import MenuArea from "../component/MenuArea";
-import GalleryArea from "../component/GalleryArea";
+import Menu from "../component/Menu";
+import Gallery from "../component/Gallery";
+import Reservation from "../component/Reservation";
 
 function Home() {
     return (
         <>
             <Hero/>
             <FixedSideButton/>
-            <MenuArea/>
-            <GalleryArea/>
+            <Menu/>
+            <Gallery/>
+            <Reservation/>
         </>
     );
 }

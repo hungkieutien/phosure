@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/MenuAreaStyles/_menuarea.scss"
+import "../styles/MenuStyles/_menu.scss"
 
-function MenuArea() {
+function Menu() {
 
     const meals = [
         {
@@ -64,4 +64,4 @@ function MenuArea() {
     );
 }
 
-export default MenuArea;
+export default Menu;
