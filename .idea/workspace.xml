@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f068d6b-705c-4703-a84d-adcf272cfafc" name="Changes" comment="Reservierung fertiggestellt und verschiedene CSS Anpassungen">
-      <change afterPath="$PROJECT_DIR$/src/component/Chefsquotes.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/chefsquotes/chefsquotes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/dish_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/dish_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/dish_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gallery/dish_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/ChefsquotesStyles/_chefsquotes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/ReservationStyles/_reservation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/ReservationStyles/_reservation.scss" afterDir="false" />
+    <list default="true" id="8f068d6b-705c-4703-a84d-adcf272cfafc" name="Changes" comment="weiter Komponente hinzugefügt und Bilder">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,22 +37,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/netgrade/Desktop/github/hung/phosure",
-    "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/netgrade/Desktop/github/hung/phosure&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/images/gallery" />
@@ -76,7 +71,8 @@
       <workItem from="1696340958577" duration="1007000" />
       <workItem from="1697014469838" duration="1224000" />
       <workItem from="1697032240628" duration="4214000" />
-      <workItem from="1697114291933" duration="50130000" />
+      <workItem from="1697114291933" duration="53267000" />
+      <workItem from="1697631758818" duration="1360000" />
     </task>
     <task id="LOCAL-00001" summary="NavBar, Hero, Buttons rechts/links verbaut">
       <option name="closed" value="true" />
@@ -134,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697536777944</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="weiter Komponente hinzugefügt und Bilder">
+      <option name="closed" value="true" />
+      <created>1697554045589</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697554045589</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +161,7 @@
     <MESSAGE value="Menu Area fertiggestellt und paar CSS Kleinigkeiten ergänzt" />
     <MESSAGE value="Bilder Sektion hinzugefügt und kleinere CSS Korrekturen" />
     <MESSAGE value="Reservierung fertiggestellt und verschiedene CSS Anpassungen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reservierung fertiggestellt und verschiedene CSS Anpassungen" />
+    <MESSAGE value="weiter Komponente hinzugefügt und Bilder" />
+    <option name="LAST_COMMIT_MESSAGE" value="weiter Komponente hinzugefügt und Bilder" />
   </component>
 </project>
