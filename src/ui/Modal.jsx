@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "../styles/ModalStyles/_modal.scss"
+import "../styles/_modal.scss"
 
 const Backdrop = () => {
     return <div className="backdrop"></div>

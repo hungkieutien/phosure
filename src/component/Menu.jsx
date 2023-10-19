@@ -1,22 +1,25 @@
 import React from "react";
-import "../styles/MenuStyles/_menu.scss"
+import "../styles/_menu.scss"
 
-function Menu() {
+export default function Menu() {
 
     const meals = [
         {
+            id: "m1",
             categorie: "Appetizer",
             dish: "Summer Rolls",
             description: "this is a vibe",
             price: "5,00 EUR",
         },
         {
+            id: "m2",
             categorie: "main courses",
             dish: "Pho",
             description: "this is probably the best dish ever",
             price: "15,00 EUR"
         },
         {
+            id: "m3",
             categorie: "Drinks & juices",
             dish: "Coffee with egg",
             description: "this sounds crazy, but nice one",
@@ -39,7 +42,7 @@ function Menu() {
                             <div className="single-menu">
                                 {meals.map(meal => {
                                         return (
-                                            <>
+                                            <div key={meal.id}>
                                                 <h3>{meal.categorie}</h3>
                                                 <ul>
                                                     <li>
@@ -51,7 +54,7 @@ function Menu() {
                                                         <p>{meal.description}</p>
                                                     </li>
                                                 </ul>
-                                            </>
+                                            </div>
                                         )
                                     }
                                 )}
@@ -63,5 +66,3 @@ function Menu() {
         </>
     );
 }
-
-export default Menu;

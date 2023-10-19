@@ -1,8 +1,8 @@
 import React from "react";
 import Chef_img from "../images/chefsquotes/chefsquotes.png";
-import "../styles/ChefsquotesStyles/_chefsquotes.scss"
+import "../styles/_chefsquotes.scss"
 
-function Chefsquotes() {
+export default function Chefsquotes() {
 
     return (
         <>
@@ -36,5 +36,3 @@ function Chefsquotes() {
     );
 
 }
-
-export default Chefsquotes;

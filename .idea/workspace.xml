@@ -4,11 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f068d6b-705c-4703-a84d-adcf272cfafc" name="Changes" comment="weiter Komponente hinzugefügt und Bilder">
+    <list default="true" id="8f068d6b-705c-4703-a84d-adcf272cfafc" name="Changes" comment="Bibliotheken hinzugefügt">
+      <change afterPath="$PROJECT_DIR$/public/noodlesoup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Chefsquotes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Chefsquotes.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/FixedSideButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/FixedSideButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Gallery.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Hero.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Menu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/NavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Reservation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Reservation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ReservationConfirmation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ReservationConfirmation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/ChefsquotesStyles/_chefsquotes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_chefsquotes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/FixedSideButtonStyles/_fixedsidebutton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_fixedsidebutton.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/GalleryStyles/_gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_gallery.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/HeroStyles/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/MenuStyles/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/ModalStyles/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/NavbarStyles/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Modal.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +74,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/styles" />
       <recent name="$PROJECT_DIR$/src/images/gallery" />
       <recent name="$PROJECT_DIR$/src/images/chefsquotes" />
       <recent name="$PROJECT_DIR$/src/images/galleryarea" />
@@ -72,7 +93,7 @@
       <workItem from="1697014469838" duration="1224000" />
       <workItem from="1697032240628" duration="4214000" />
       <workItem from="1697114291933" duration="53267000" />
-      <workItem from="1697631758818" duration="1360000" />
+      <workItem from="1697631758818" duration="15467000" />
     </task>
     <task id="LOCAL-00001" summary="NavBar, Hero, Buttons rechts/links verbaut">
       <option name="closed" value="true" />
@@ -138,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697554045589</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Bibliotheken hinzugefügt">
+      <option name="closed" value="true" />
+      <created>1697702874563</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697702874563</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +191,7 @@
     <MESSAGE value="Bilder Sektion hinzugefügt und kleinere CSS Korrekturen" />
     <MESSAGE value="Reservierung fertiggestellt und verschiedene CSS Anpassungen" />
     <MESSAGE value="weiter Komponente hinzugefügt und Bilder" />
-    <option name="LAST_COMMIT_MESSAGE" value="weiter Komponente hinzugefügt und Bilder" />
+    <MESSAGE value="Bibliotheken hinzugefügt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bibliotheken hinzugefügt" />
   </component>
 </project>

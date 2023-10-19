@@ -5,6 +5,7 @@ import Menu from "../component/Menu";
 import Gallery from "../component/Gallery";
 import Reservation from "../component/Reservation";
 import Chefsquotes from "../component/Chefsquotes";
+import Footer from "../component/Footer";
 
 function Home() {
     return (
@@ -15,6 +16,7 @@ function Home() {
             <Gallery/>
             <Reservation/>
             <Chefsquotes/>
+            <Footer/>
         </>
     );
 }

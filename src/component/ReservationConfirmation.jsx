@@ -2,7 +2,7 @@ import React from "react";
 import Modal from "../ui/Modal";
 import "../styles/ReservationStyles/_reservationconfirmation.scss"
 
-function ReservationConfirmation(props) {
+export default function ReservationConfirmation(props) {
 
     return (
         <Modal>
@@ -23,5 +23,3 @@ function ReservationConfirmation(props) {
         </Modal>
     );
 }
-
-export default ReservationConfirmation;

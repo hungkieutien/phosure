@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import "../styles/ReservationStyles/_reservation.scss"
 import ReservationConfirmation from "./ReservationConfirmation";
 
-function Reservation() {
+export default function Reservation() {
 
     const [formData, setFormData] = useState({
         firstname: '',
@@ -151,5 +151,3 @@ function Reservation() {
         </>
     );
 }
-
-export default Reservation;

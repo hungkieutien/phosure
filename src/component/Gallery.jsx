@@ -1,11 +1,11 @@
 import React from "react";
-import "../styles/GalleryStyles/_gallery.scss";
+import "../styles/_gallery.scss";
 import Dish_1 from "../images/gallery/dish_1.png";
 import Dish_2 from "../images/gallery/dish_2.png";
 import Dish_3 from "../images/gallery/dish_3.png";
 import Dish_4 from "../images/gallery/dish_4.png";
 
-function Gallery() {
+export default function Gallery() {
 
     return (
         <>
@@ -38,5 +38,3 @@ function Gallery() {
         </>
     );
 }
-
-export default Gallery;

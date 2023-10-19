@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/FixedSideButtonStyles/_fixedsidebutton.scss"
+import "../styles/_fixedsidebutton.scss"
 
-function FixedSideButton() {
+export default function FixedSideButton() {
 
     return (
         <>
@@ -19,5 +19,3 @@ function FixedSideButton() {
     );
 
 }
-
-export default FixedSideButton;

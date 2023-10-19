@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import Logo from "../images/logo/logo.png";
-import "../styles/NavbarStyles/_navbar.scss";
+import "../styles/_navbar.scss";
 import {IconMenu2} from "@tabler/icons-react";
 
 const NavBar = () => {
@@ -18,25 +18,37 @@ const NavBar = () => {
 
     const links_left = [
         {
-            name: 'Home', anchor: '#home'
+            id: "l1",
+            name: 'Home',
+            anchor: '#home'
         },
         {
-            name: 'Menu', anchor: '#menu'
+            id: "l2",
+            name: 'Menu',
+            anchor: '#menu'
         },
         {
-            name: 'About', anchor: '#about'
+            id: "l3",
+            name: 'Gallery',
+            anchor: '#gallery'
         }
     ]
 
     const links_right = [
         {
-            name: 'Pages', anchor: '#pages'
+            id: "l4",
+            name: 'Reservation',
+            anchor: '#reservation'
         },
         {
-            name: 'Blog', anchor: '#blog'
+            id: "l5",
+            name: 'Chef',
+            anchor: '#chefsquotes'
         },
         {
-            name: 'Gallery', anchor: '#gallery'
+            id: "l6",
+            name: 'Blog',
+            anchor: '#blog'
         },
     ]
 
@@ -46,7 +58,7 @@ const NavBar = () => {
                 <div className="container">
                     <div className="navbar">
                         <ul className="navbar__links">
-                            {links_left.map(link => (<li><a href={link.anchor}>{link.name}</a></li>))}
+                            {links_left.map(link => (<li key={link.id}><a href={link.anchor}>{link.name}</a></li>))}
                         </ul>
                         <div className="navbar__img">
                             <a href="/">
@@ -54,7 +66,7 @@ const NavBar = () => {
                             </a>
                         </div>
                         <ul className="navbar__links">
-                            {links_right.map(link => (<li><a href={link.anchor}>{link.name}</a></li>))}
+                            {links_right.map(link => (<li key={link.id}><a href={link.anchor}>{link.name}</a></li>))}
                         </ul>
                     </div>
                     <div className="burger-menu">
@@ -65,7 +77,7 @@ const NavBar = () => {
                 <div className={`mobile-menu ${burgerMenu ? "open-menu" : "close-menu"}`}>
                     <ul>
                         {links_left.concat(links_right).map(link =>
-                            (<li><a href={link.anchor}>{link.name}</a></li>))
+                            (<li key={link.id}><a href={link.anchor}>{link.name}</a></li>))
                         }
                     </ul>
                 </div>
