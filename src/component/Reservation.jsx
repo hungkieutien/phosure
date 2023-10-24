@@ -94,7 +94,7 @@ export default function Reservation() {
                                 <div className="input-wrapper">
                                     <label htmlFor="reservationtime">Time<b>*</b></label>
                                     <input className="form-control" id="reservationtime" name="reservationtime"
-                                           placeholder="Time" type="time" min="09:00" max="21:00" step="900" required
+                                           placeholder="Time" type="time" required
                                            onChange={(event) => {
                                                setFormData({...formData, reservation_time: event.target.value})
                                            }}>

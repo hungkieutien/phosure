@@ -78,6 +78,10 @@
             width: 100%;
           }
 
+          input {
+            font-size: 16px;
+          }
+
           input[type=date],
           input[type=time] {
             color: #777777;
@@ -87,6 +91,7 @@
             height: 10rem !important;
             font-family: inherit;
             padding-top: 10px;
+            font-size: 16px;
           }
         }
 
