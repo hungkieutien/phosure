@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f068d6b-705c-4703-a84d-adcf272cfafc" name="Changes" comment="Footer fertiggestellt, unnötige Ordner gelöscht, Favicon getauscht, JS Fehler in Konsole behoben">
-      <change beforePath="$PROJECT_DIR$/src/styles/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_footer.scss" afterDir="false" />
+    <list default="true" id="8f068d6b-705c-4703-a84d-adcf272cfafc" name="Changes" comment="kleiner Korrektur Footer">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,8 @@
       <workItem from="1697014469838" duration="1224000" />
       <workItem from="1697032240628" duration="4214000" />
       <workItem from="1697114291933" duration="53267000" />
-      <workItem from="1697631758818" duration="15792000" />
+      <workItem from="1697631758818" duration="20538000" />
+      <workItem from="1698132654769" duration="1234000" />
     </task>
     <task id="LOCAL-00001" summary="NavBar, Hero, Buttons rechts/links verbaut">
       <option name="closed" value="true" />
@@ -153,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697728073866</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="kleiner Korrektur Footer">
+      <option name="closed" value="true" />
+      <created>1697728357745</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1697728357745</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +188,7 @@
     <MESSAGE value="weiter Komponente hinzugefügt und Bilder" />
     <MESSAGE value="Bibliotheken hinzugefügt" />
     <MESSAGE value="Footer fertiggestellt, unnötige Ordner gelöscht, Favicon getauscht, JS Fehler in Konsole behoben" />
-    <option name="LAST_COMMIT_MESSAGE" value="Footer fertiggestellt, unnötige Ordner gelöscht, Favicon getauscht, JS Fehler in Konsole behoben" />
+    <MESSAGE value="kleiner Korrektur Footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="kleiner Korrektur Footer" />
   </component>
 </project>
