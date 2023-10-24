@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f068d6b-705c-4703-a84d-adcf272cfafc" name="Changes" comment="kleiner Korrektur Footer">
+    <list default="true" id="8f068d6b-705c-4703-a84d-adcf272cfafc" name="Changes" comment="Beschreibungen geändert">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +21,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -73,6 +74,7 @@
       <workItem from="1697114291933" duration="53267000" />
       <workItem from="1697631758818" duration="20538000" />
       <workItem from="1698132654769" duration="1234000" />
+      <workItem from="1698154982317" duration="802000" />
     </task>
     <task id="LOCAL-00001" summary="NavBar, Hero, Buttons rechts/links verbaut">
       <option name="closed" value="true" />
@@ -162,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697728357745</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Beschreibungen geändert">
+      <option name="closed" value="true" />
+      <created>1698155112114</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1698155112115</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +199,7 @@
     <MESSAGE value="Bibliotheken hinzugefügt" />
     <MESSAGE value="Footer fertiggestellt, unnötige Ordner gelöscht, Favicon getauscht, JS Fehler in Konsole behoben" />
     <MESSAGE value="kleiner Korrektur Footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="kleiner Korrektur Footer" />
+    <MESSAGE value="Beschreibungen geändert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Beschreibungen geändert" />
   </component>
 </project>

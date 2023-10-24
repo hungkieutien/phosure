@@ -9,7 +9,7 @@ export default function Gallery() {
 
     return (
         <>
-            <section className="gallery-area">
+            <section id="gallery" className="gallery-area">
                 <div className="container">
                     <div className="gallery-content">
                         <div className="single-gallery mt--400">
