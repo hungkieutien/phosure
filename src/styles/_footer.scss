@@ -24,8 +24,12 @@ footer {
       gap: 3rem;
 
       .footer-column {
+        @media (max-width: 768px) {
+          width: 40%;
+        }
+
         @media (max-width: 630px) {
-          width: 50%;
+          width: 80%;
         }
 
         width: 30%;
