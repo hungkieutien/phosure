@@ -1,203 +1,214 @@
-.container {
-  @media (max-width: 992px) {
-    max-width: 45rem;
+.reservation {
+
+  @media (min-width: 992px) {
+    padding-top: 6rem;
   }
 
   @media (max-width: 768px) {
-    max-width: 50rem;
+    padding-top: 4rem;
   }
 
-  .reservation-content {
-
+  .container {
     @media (max-width: 992px) {
-      gap: 1rem;
+      max-width: 45rem;
     }
 
     @media (max-width: 768px) {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 3rem;
+      max-width: 50rem;
     }
 
-    display: flex;
-    gap: 5rem;
-
-    .reservation-form {
-
-      @media (max-width: 1200px) {
-        width: 50%;
-      }
+    .reservation-content {
 
       @media (max-width: 992px) {
-        padding: 25px;
+        gap: 1rem;
       }
 
       @media (max-width: 768px) {
-        width: 80%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 0;
       }
 
-      padding: 80px 50px 200px;
-      background: #faf5f0;
-      width: 60%;
+      display: flex;
+      gap: 5rem;
 
-      .form-group {
+      .reservation-form {
+
         @media (max-width: 1200px) {
-          gap: 1rem;
+          width: 50%;
         }
 
         @media (max-width: 992px) {
-          gap: 1.2rem;
+          padding: 25px;
+        }
+
+        @media (max-width: 768px) {
+          width: 80%;
+        }
+
+        padding: 80px 50px 200px;
+        background: #faf5f0;
+        width: 60%;
+
+        .form-group {
+          @media (max-width: 1200px) {
+            gap: 1rem;
+          }
+
+          @media (max-width: 992px) {
+            gap: 1.2rem;
+            display: flex;
+            flex-direction: column;
+          }
+
+          display: flex;
+          gap: 1.5rem;
+          margin-bottom: 1.2rem;
+          justify-content: center;
+
+          .input-wrapper {
+            @media (max-width: 992px) {
+              width: 100%;
+            }
+
+            width: 50%;
+
+            label {
+              font-size: 11px;
+              font-weight: 100;
+              margin-left: 1px;
+            }
+
+            .form-control {
+              margin-top: 3px;
+              height: 2.5rem;
+              border: none;
+              padding-left: 10px;
+              width: 100%;
+            }
+
+            input {
+              font-size: 16px;
+            }
+
+            input[type=date],
+            input[type=time] {
+              color: #777777;
+            }
+
+            textarea {
+              height: 10rem !important;
+              font-family: inherit;
+              padding-top: 10px;
+              font-size: 16px;
+            }
+          }
+
+          .input-wrapper-single {
+            @extend .input-wrapper;
+            width: 100%;
+          }
+        }
+
+        .button-form {
+          display: flex;
+          justify-content: flex-end;
+          margin-top: 3rem;
+
+          button {
+            background: #000000;
+            color: #ffffff;
+            border: 1px solid #ffffff;
+            line-height: 48px;
+            padding: 0 30px;
+            border-radius: 0;
+            display: inline-block;
+            font-weight: normal;
+            position: relative;
+            letter-spacing: 2px;
+            transition: all 0.4s ease 0s;
+            cursor: pointer;
+            text-transform: uppercase;
+
+            &:hover {
+              background: transparent;
+              border: 1px solid #ad9966;
+              color: #ad9966;
+            }
+          }
+        }
+
+
+        .confirmation-text {
+          animation: fadein 4s;
+
+          .thank-you-text {
+            margin-top: 40px;
+
+            h2 {
+              font-weight: 100;
+              margin-bottom: 10px;
+            }
+
+            p {
+              font-size: 15px;
+              font-weight: 100;
+            }
+          }
+        }
+
+        @keyframes fadein {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+      }
+
+      .reservation-text {
+
+        @media (max-width: 992px) {
+          width: 50%;
           display: flex;
           flex-direction: column;
+          justify-content: center;
         }
 
-        display: flex;
-        gap: 1.5rem;
-        margin-bottom: 1.2rem;
-        justify-content: center;
+        @media (max-width: 768px) {
+          width: 80%;
+        }
 
-        .input-wrapper {
+        width: 40%;
+
+        h1 {
+
           @media (max-width: 992px) {
-            width: 100%;
+            line-height: 1.2;
+            font-size: 30px;
+            letter-spacing: normal;
           }
 
-          width: 50%;
-
-          label {
-            font-size: 11px;
-            font-weight: 100;
-            margin-left: 1px;
-          }
-
-          .form-control {
-            margin-top: 3px;
-            height: 2.5rem;
-            border: none;
-            padding-left: 10px;
-            width: 100%;
-          }
-
-          input {
-            font-size: 16px;
-          }
-
-          input[type=date],
-          input[type=time] {
-            color: #777777;
-          }
-
-          textarea {
-            height: 10rem !important;
-            font-family: inherit;
-            padding-top: 10px;
-            font-size: 16px;
-          }
-        }
-
-        .input-wrapper-single {
-          @extend .input-wrapper;
-          width: 100%;
-        }
-      }
-
-      .button-form {
-        display: flex;
-        justify-content: flex-end;
-        margin-top: 3rem;
-
-        button {
-          background: #000000;
-          color: #ffffff;
-          border: 1px solid #ffffff;
-          line-height: 48px;
-          padding: 0 30px;
-          border-radius: 0;
-          display: inline-block;
-          font-weight: normal;
-          position: relative;
-          letter-spacing: 2px;
-          transition: all 0.4s ease 0s;
-          cursor: pointer;
+          margin-bottom: 20px;
+          font-size: 48px;
+          line-height: 1.5;
+          letter-spacing: 7.2px;
           text-transform: uppercase;
-
-          &:hover {
-            background: transparent;
-            border: 1px solid #ad9966;
-            color: #ad9966;
-          }
-        }
-      }
-
-
-      .confirmation-text {
-        animation: fadein 4s;
-
-        .thank-you-text {
-          margin-top: 40px;
-
-          h2 {
-            font-weight: 100;
-            margin-bottom: 10px;
-          }
-
-          p {
-            font-size: 15px;
-            font-weight: 100;
-          }
-        }
-      }
-
-      @keyframes fadein {
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-    }
-
-    .reservation-text {
-
-      @media (max-width: 992px) {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
-
-      @media (max-width: 768px) {
-        width: 80%;
-      }
-
-      width: 40%;
-
-      h1 {
-
-        @media (max-width: 992px) {
-          line-height: 1.2;
-          font-size: 30px;
-          letter-spacing: normal;
+          color: #000;
+          margin-top: 0;
+          font-weight: normal;
         }
 
-        margin-bottom: 20px;
-        font-size: 48px;
-        line-height: 1.5;
-        letter-spacing: 7.2px;
-        text-transform: uppercase;
-        color: #000;
-        margin-top: 0;
-        font-weight: normal;
-      }
-
-      p {
-        margin-bottom: 50px;
-        line-height: 30px;
-        color: #777777;
-        font-size: 15px;
-        font-weight: 400;
-        width: 80%;
+        p {
+          margin-bottom: 50px;
+          line-height: 30px;
+          color: #777777;
+          font-size: 15px;
+          font-weight: 400;
+          width: 80%;
+        }
       }
     }
   }

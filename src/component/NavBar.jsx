@@ -77,7 +77,7 @@ const NavBar = () => {
                 <div className={`mobile-menu ${burgerMenu ? "open-menu" : "close-menu"}`}>
                     <ul>
                         {links_left.concat(links_right).map(link =>
-                            (<li key={link.id}><a href={link.anchor}>{link.name}</a></li>))
+                            (<li key={link.id}><a onClick={handleBurgerMenu} href={link.anchor}>{link.name}</a></li>))
                         }
                     </ul>
                 </div>
