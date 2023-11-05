@@ -4,37 +4,34 @@ import Dish_1 from "../images/gallery/dish_1.png";
 import Dish_2 from "../images/gallery/dish_2.png";
 import Dish_3 from "../images/gallery/dish_3.png";
 import Dish_4 from "../images/gallery/dish_4.png";
+import Section from "./Section";
 
 export default function Gallery() {
 
     return (
         <>
-            <section id="gallery" className="gallery-area">
-                <div className="container">
-                    <div className="gallery-content">
-                        <div className="single-gallery mt--400">
-                            <figure>
-                                <img src={Dish_1} alt="dish_1"/>
-                            </figure>
-                        </div>
-                        <div className="single-gallery pl--2">
-                            <figure>
-                                <img src={Dish_2} alt="dish_2"/>
-                            </figure>
-                        </div>
-                        <div className="single-gallery mt--200">
-                            <figure>
-                                <img src={Dish_3} alt="dish_3"/>
-                            </figure>
-                        </div>
-                        <div className="single-gallery pl--2">
-                            <figure>
-                                <img src={Dish_4} alt="dish_4"/>
-                            </figure>
-                        </div>
-                    </div>
+            <Section id="gallery" className="gallery-area" mode="gallery">
+                <div className="single-gallery mt--400">
+                    <figure>
+                        <img src={Dish_1} alt="dish_1"/>
+                    </figure>
                 </div>
-            </section>
+                <div className="single-gallery pl--2">
+                    <figure>
+                        <img src={Dish_2} alt="dish_2"/>
+                    </figure>
+                </div>
+                <div className="single-gallery mt--200">
+                    <figure>
+                        <img src={Dish_3} alt="dish_3"/>
+                    </figure>
+                </div>
+                <div className="single-gallery pl--2">
+                    <figure>
+                        <img src={Dish_4} alt="dish_4"/>
+                    </figure>
+                </div>
+            </Section>
         </>
     );
 }

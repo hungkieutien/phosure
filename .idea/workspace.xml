@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f068d6b-705c-4703-a84d-adcf272cfafc" name="Changes" comment="kleine CSS Korrekturen">
+    <list default="true" id="8f068d6b-705c-4703-a84d-adcf272cfafc" name="Changes" comment="Sprungmarken mit smooth sliden, Mobile Navi schließen beim Click/Touch">
+      <change afterPath="$PROJECT_DIR$/src/component/Section.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/ReservationStyles/_reservation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/ReservationStyles/_reservation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_chefsquotes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_chefsquotes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/global/_boilerplate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global/_boilerplate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Chefsquotes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Chefsquotes.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Gallery.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Hero.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Menu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Reservation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Reservation.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +84,12 @@
       <workItem from="1698163668248" duration="2419000" />
       <workItem from="1698232164716" duration="1202000" />
       <workItem from="1698746692464" duration="15000" />
-      <workItem from="1698834427407" duration="2786000" />
+      <workItem from="1698834427407" duration="3572000" />
+      <workItem from="1698931497537" duration="4000" />
+      <workItem from="1698937036770" duration="6000" />
+      <workItem from="1698937064687" duration="1754000" />
+      <workItem from="1699095416365" duration="18000" />
+      <workItem from="1699193902058" duration="1436000" />
     </task>
     <task id="LOCAL-00001" summary="NavBar, Hero, Buttons rechts/links verbaut">
       <option name="closed" value="true" />
@@ -204,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698158656545</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Sprungmarken mit smooth sliden, Mobile Navi schließen beim Click/Touch">
+      <option name="closed" value="true" />
+      <created>1698928932562</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1698928932562</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +249,7 @@
     <MESSAGE value="Beschreibungen geändert" />
     <MESSAGE value="kleine Korrektur" />
     <MESSAGE value="kleine CSS Korrekturen" />
-    <option name="LAST_COMMIT_MESSAGE" value="kleine CSS Korrekturen" />
+    <MESSAGE value="Sprungmarken mit smooth sliden, Mobile Navi schließen beim Click/Touch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sprungmarken mit smooth sliden, Mobile Navi schließen beim Click/Touch" />
   </component>
 </project>

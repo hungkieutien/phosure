@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/_menu.scss"
+import Section from "./Section";
 
 export default function Menu() {
 
@@ -29,40 +30,36 @@ export default function Menu() {
 
     return (
         <>
-            <section id="menu" className="menu-area">
-                <div className="container">
-                    <div className="menu-content">
-                        <div className="menu-text">
-                            <h1>I mean what the pho?</h1>
-                            <p>Pho is like a flavor explosion in your mouth! The noodles dance, the meat cracks jokes,
-                                and the broth? It's the star of the soup show! Enjoy your meal and lots of laughter!</p>
-                            <a href="/">See Full Menu</a>
-                        </div>
-                        <div className="menu-list">
-                            <div className="single-menu">
-                                {meals.map(meal => {
-                                        return (
-                                            <div key={meal.id}>
-                                                <h3>{meal.categorie}</h3>
-                                                <ul>
-                                                    <li>
-                                                        <p className="menu-item">{meal.dish} - <span>{meal.price}</span></p>
-                                                        <p>{meal.description}</p>
-                                                    </li>
-                                                    <li>
-                                                        <p className="menu-item">{meal.dish} - <span>{meal.price}</span></p>
-                                                        <p>{meal.description}</p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        )
-                                    }
-                                )}
-                            </div>
-                        </div>
+            <Section id="menu" className="menu-area" mode="menu">
+                <div className="menu-text">
+                    <h1>I mean what the pho?</h1>
+                    <p>Pho is like a flavor explosion in your mouth! The noodles dance, the meat cracks jokes,
+                        and the broth? It's the star of the soup show! Enjoy your meal and lots of laughter!</p>
+                    <a href="/">See Full Menu</a>
+                </div>
+                <div className="menu-list">
+                    <div className="single-menu">
+                        {meals.map(meal => {
+                                return (
+                                    <div key={meal.id}>
+                                        <h3>{meal.categorie}</h3>
+                                        <ul>
+                                            <li>
+                                                <p className="menu-item">{meal.dish} - <span>{meal.price}</span></p>
+                                                <p>{meal.description}</p>
+                                            </li>
+                                            <li>
+                                                <p className="menu-item">{meal.dish} - <span>{meal.price}</span></p>
+                                                <p>{meal.description}</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                )
+                            }
+                        )}
                     </div>
                 </div>
-            </section>
+            </Section>
         </>
     );
 }
